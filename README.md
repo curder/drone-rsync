@@ -1,15 +1,15 @@
 # drone-rsync
-[![drone-rsync on Docker Hub](https://img.shields.io/docker/automated/drillster/drone-rsync.svg)](https://hub.docker.com/r/drillster/drone-rsync/)
+[![drone-rsync on Docker Hub](https://img.shields.io/docker/automated/curder/drone-rsync.svg)](https://hub.docker.com/r/curder/drone-rsync/)
 
 This is a pure Bash [Drone](https://github.com/drone/drone) >= 0.5 plugin to sync files to remote hosts.
 
-For more information on how to use the plugin, please take a look at [the docs](https://github.com/Drillster/drone-rsync/blob/master/DOCS.md).
+For more information on how to use the plugin, please take a look at [the docs](https://github.com/curder/drone-rsync/blob/master/DOCS.md).
 
 ## Docker
 Build the docker image by running:
 
 ```bash
-docker build --rm=true -t drillster/drone-rsync .
+docker build --rm=true -t ghcr.io/curder/drone-rsync:latest .
 ```
 
 ## Usage
