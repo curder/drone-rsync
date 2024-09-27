@@ -12,6 +12,8 @@ Build the docker image by running:
 docker build --rm=true -t ghcr.io/curder/drone-rsync:latest .
 ```
 
+For Apple Silicon or other arm-based CPUs, use the `--platform linux/arm64` option.
+
 ## Usage
 Execute from the working directory (assuming you have an SSH server running on 127.0.0.1:22):
 
@@ -28,3 +30,13 @@ docker run --rm \
   -w $(pwd) \
   drillster/drone-rsync
 ```
+
+## Mirrors
+
+- Aliyun
+
+  `registry.cn-hangzhou.aliyuncs.com/curder/drone-rsync`
+  
+- Github
+
+    `ghcr.io/curder/drone-rsync`
