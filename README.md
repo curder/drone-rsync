@@ -9,7 +9,7 @@ For more information on how to use the plugin, please take a look at [the docs](
 Build the docker image by running:
 
 ```bash
-docker build --rm=true -t ghcr.io/curder/drone-rsync:latest .
+docker build --rm=true -t curder/drone-rsync:latest .
 ```
 
 For Apple Silicon or other arm-based CPUs, use the `--platform linux/arm64` option.
