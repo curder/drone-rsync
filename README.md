@@ -28,7 +28,7 @@ docker run --rm \
   -e PLUGIN_ARGS="--blocking-io" \
   -v $(pwd):$(pwd) \
   -w $(pwd) \
-  drillster/drone-rsync
+  curder/drone-rsync
 ```
 
 ## Mirrors
